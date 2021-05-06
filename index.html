@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda de Compromissos</title>
+
+    <!--styles-->
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/body.css">
+    <link rel="stylesheet" href="assets/css/title.css">
+    <link rel="stylesheet" href="assets/css/app.css">
+    <link rel="stylesheet" href="assets/css/form.css">
+    <link rel="stylesheet" href="assets/css/list.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Butterfly+Kids&display=swap" rel="stylesheet">
+
+    <!--favicon-->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
+    <link rel="manifest" href="assets/images/site.webmanifest">
+    <link rel="mask-icon" href="assets/images/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+    <header class="title">
+        <h1 class="title-seo">Agenda de Compromissos</h1>
+        <div class="title-heart">
+            <div class="title-heart__text">Agenda de</div>
+            <div class="title-heart__img"></div>
+        </div>
+        <div class="title-heart__text">Compromissos</div>
+    </header>
+
+    <main class="app">
+        <form class="form">
+            <label class="form___label">digite aqui, máximo 40 caracteres:</label>
+            <input class="form__input " maxlength="40" type="text" data-form-input>
+            
+            <div class="form__datetime-button">
+                <input class="form__datetime" type="datetime-local" data-form-data></input>
+                <button class="form__button" data-form-button>Vamos lá ></button>
+            </div>
+
+        </form>
+
+        <section class="list">
+            <ul data-list>
+                <!-- <li class="list__item" data-item>
+                    `<p class="list__text">${value}</p>`
+                </li> -->
+            </ul>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>Desenvolvido por Renata Marques © Copyright 2021</p>
+    </footer>
+
+    <script type="module" src="scripts/main.js"></script>
+</body>
+</html>

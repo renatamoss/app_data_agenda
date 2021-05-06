@@ -1,0 +1,60 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.form___label {
+    color: var(--cinza);
+    font-size: 1rem;
+    font-style: italic;
+    padding: 0 .4rem;
+}
+
+.form__input {
+    border: none;
+    border-radius: 10px 10px 0 0;
+    font-size: 1.4rem;
+    padding: .4rem;
+}
+
+.form__datetime-button {
+    display: flex;
+    width: 100%;
+
+}
+
+.form__datetime {
+    background-color: var(--cinzaClaro);
+    border: none;
+    border-radius: 0 0 0 10px;
+    padding: .4rem;
+    width: 50%;
+}
+
+.form__button {
+    background-color: var(--laranjaEscuro);
+    border-radius: 0 0 10px 0;
+    border: none;
+    color: var(--branco);
+    cursor: pointer;
+    font-size: .8rem;
+    outline: none;
+    padding: .4rem;
+    transition: all 0.3s ease;
+    width: 50%;
+}
+
+.form__button:hover {
+    opacity: .6;
+}
+
+@media screen and (max-width: 576px) {
+    .form__input {
+        font-size: 1rem;
+    }
+
+    .form__button:hover {
+        opacity: 1;
+    }
+}

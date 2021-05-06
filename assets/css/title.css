@@ -1,0 +1,40 @@
+.title {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0;
+}
+
+/*title oculto, h1 para SEO*/
+.title-seo {
+    font-size: 0%;
+    opacity: 0;
+}
+
+.title-heart {
+    display: flex;
+}
+
+.title-heart__text {
+    font-family: 'Butterfly Kids', cursive;
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+.title-heart__text:first-child {
+    transform: translate(0, 20%);
+}
+
+.title-heart__img {
+    background-image: url(../images/image.png);
+    background-size: cover;
+    background-position: center;
+    height: 4rem;
+    width: 4rem;
+}
+
+@media screen and (max-width: 576px) {
+    .title {
+        margin: 1rem 0;
+    }
+}
