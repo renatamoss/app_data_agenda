@@ -7,7 +7,7 @@ Conceitos estudados:
 
 # preview
 
-[![app_data_agenda](https://github.com/renatamoss/app_data_agenda/blob/main/assets/images/agenda_compromissos_git.gif?raw=true)](https://renatamoss.github.io/app_data_agenda/index.html)
+[![app_data_agenda](https://github.com/renatamoss/app_data_agenda/blob/main/assets/images/agenda_compromissos_gif.gif?raw=true)](https://renatamoss.github.io/app_data_agenda/index.html)
 
 
 Projeto desenvolvido durante o curso *Sites interativos, integrando o JavaScript ao Navegador* -
